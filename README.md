@@ -7,7 +7,7 @@ HTML for paragraphs – Meghan
 
 CSS – template and modifications - Esther 
 
-Java script – interactivity (jQuery?) - Kevin -= 
+Java script – interactivity (jQuery?) - Kevin
 
 External links - Lucija 
 

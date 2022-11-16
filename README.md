@@ -33,10 +33,9 @@ Home page
 
 About our company  
 
-Meet the team (multiple pages in one – scrolling page) 
+Meet the team (multiple pages in one – scrolling page - requires approval to determine number of pages) 
 
 Projects with sub pages (Ex: programming, surveying, remote sensing, spatial analysis)
 
 Careers (job opportunities) 
 
-Contact us (form) 

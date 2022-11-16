@@ -1,6 +1,10 @@
 # a3web
 # Web Design and Programming Assignment 3: Group 7
 
+### To break up the work evenly we have split the template page into several sections 
+
+Individuals will work together on some parts of the template where other sections will primarily be covered individually. Throughout the process we will keep an open line of communication and if any section ends up taking longer than anticipated, individual template assignments will be edited to make sure the work is even. Additionally, new sections may be added while starting the template that may result in the following assignments being edited. 
+
 Navigation Bar - Jessica 
 
 HTML for paragraphs – Meghan  
@@ -21,7 +25,9 @@ Contact form - Kevin
 
 Fake logo - Jessica 
 
-# Pages of webpage (will assign specific parts once the template/design has been decided)
+# Pages of webpage 
+
+### Once a template page has been created we will be splitting up the remaining pages evenly to spread out the workload. 
 
 Home page  
 

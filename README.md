@@ -1,6 +1,8 @@
 # a3web
 # Web Design and Programming Assignment 3: Group 7
 
+## Plan for Template Creation 
+
 ### Workload Breakdown
 
 Individuals will work together on some parts of the template where other sections will primarily be covered individually. Throughout the process we will keep an open line of communication and if any section ends up taking longer than anticipated, individual template assignments will be edited to make sure the work is even. Additionally, new sections may be added while starting the template that may result in the edits to the following assignments.  
@@ -37,19 +39,33 @@ Wednesday: Ensure all template sections uploaded to GitHub
 
 Thursday: Debug and edit template as needed
 
-### Website Sections
+Firday: Submit template
 
-# Pages of webpage 
+#### Week 13
 
-### Once a template page has been created we will be splitting up the remaining pages evenly to spread out the workload. 
+Sunday - Wednesday: Come up with unique design for each section of the website
 
-Home page  
+Wednesday - Satuarday: Write the content for each page and source imagery
 
-About our company  
+#### Week 14
 
-Meet the team (multiple pages in one – scrolling page - requires approval to determine number of pages) 
+Sunday - Wednesday: Modify template and apply unique design elements and JavaScript to the pages as required. Add all website content (imagery, text, etc)
 
-Projects with sub pages (Ex: programming, surveying, remote sensing, spatial analysis)
+Wednesday - Thursday: Debug website and add final touches 
 
-Careers (job opportunities) 
+Friday: Submit website
+
+
+## Website Sections
+
+We have a group of 5, as such we will have a total of 10 pages. The theme of the website is a Environmental GIS Consulting Agency and we will be using a combination of true and made up content on the website. We have opted to build our own CSS and HTML templates based on elements we have learned in class and elements we like from various other websites. 
+
+1. Home page  
+2. About our company 
+3. Values 
+4. Meet the team - scrolling page, requires approval to determine number of pages it is equivalent to
+5. Projects (sub-pages include: Surveying, Remote Sensing, Spaital Analysis)
+6. Testimonials
+7. Careers and Job Opportunities 
+
 

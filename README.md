@@ -21,8 +21,6 @@ Website content – write content for paragraphs, headers etc. - All
 
 Footer – Meghan  
 
-Contact form - Kevin 
-
 Fake logo - Jessica 
 
 # Pages of webpage 

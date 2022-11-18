@@ -23,7 +23,7 @@ JavaScript (interactivity) - Kevin
 
 External Links - Lucija 
 
-Finding Opensource Images - Lucija 
+Finding Opensource Images and Responsive Design - Lucija 
 
 Website Content - Meghan, Jessica, Lucija and Kevin
 
@@ -39,13 +39,13 @@ Wednesday: Ensure all template sections uploaded to GitHub
 
 Thursday: Debug and edit template as needed
 
-Firday: Submit template
+Friday: Submit template
 
 #### Week 13
 
 Sunday - Wednesday: Come up with unique design for each section of the website
 
-Wednesday - Satuarday: Write the content for each page and source imagery
+Wednesday - Saturday: Write the content for each page and source imagery
 
 #### Week 14
 
@@ -64,7 +64,7 @@ We have a group of 5, as such we will have a total of 10 pages. The theme of the
 2. About our company 
 3. Values 
 4. Meet the team - scrolling page, requires approval to determine number of pages it is equivalent to
-5. Projects (sub-pages include: Surveying, Remote Sensing, Spaital Analysis)
+5. Projects (sub-pages include: Surveying, Remote Sensing, Spatial Analysis)
 6. Testimonials
 7. Careers and Job Opportunities 
 

@@ -1,27 +1,43 @@
 # a3web
 # Web Design and Programming Assignment 3: Group 7
 
-### To break up the work evenly we have split the template page into several sections 
+### Workload Breakdown
 
-Individuals will work together on some parts of the template where other sections will primarily be covered individually. Throughout the process we will keep an open line of communication and if any section ends up taking longer than anticipated, individual template assignments will be edited to make sure the work is even. Additionally, new sections may be added while starting the template that may result in the following assignments being edited. 
+Individuals will work together on some parts of the template where other sections will primarily be covered individually. Throughout the process we will keep an open line of communication and if any section ends up taking longer than anticipated, individual template assignments will be edited to make sure the work is even. Additionally, new sections may be added while starting the template that may result in the edits to the following assignments.  
 
-Navigation Bar - Jessica 
+HTML and CSS for Navigation Bar - Jessica 
 
-HTML for paragraphs – Meghan  
+HTML and CSS for Footer – Jessica 
 
-CSS – template and modifications - Esther 
+Logo - Jessica 
 
-Java script – interactivity (jQuery?) - Kevin
+HTML and CSS for Paragraphs – Meghan  
 
-External links - Lucija 
+HTML and CSS for Tabs and Buttons - Meghan
+
+HTML and CSS for Headers and Sub-headings - Esther 
+
+JavaScript (interactivity) - Kevin
+
+External Links - Lucija 
 
 Finding Opensource Images - Lucija 
 
-Website content – write content for paragraphs, headers etc. - All
+Website Content - Meghan, Jessica, Lucija and Kevin
 
-Footer – Meghan  
+### Workload Timeline
 
-Fake logo - Jessica 
+#### Week 12
+
+Sunday - Monday: Complete HTML for template page 
+
+Monday - Wednesday: Complete CSS and JavaScript for template page
+
+Wednesday: Ensure all template sections uploaded to GitHub
+
+Thursday: Debug and edit template as needed
+
+### Website Sections
 
 # Pages of webpage 
 

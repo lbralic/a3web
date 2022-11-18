@@ -25,7 +25,7 @@ External Links - Lucija
 
 Finding Opensource Images and Responsive Design - Lucija 
 
-Website Content - Meghan, Jessica, Lucija and Kevin
+Website Content, Website Theme, CSS Inspiration - Entire Team 
 
 ### Workload Timeline
 

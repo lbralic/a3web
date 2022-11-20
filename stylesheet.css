@@ -1,0 +1,78 @@
+* {									
+	box-sizing: border-box;			/* Width and height calculations will include padding and borders */
+	margin: 0;						/* Overrides defaults and sets the margin of the entire page to 0 */
+	padding: 0;						/* Overrides defaults and sets the padding of the entire page to 0 */
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* --- Lucija Bralic: Header Image Start --- */
+/* Inspiration: https://www.w3schools.com/w3css/w3css_templates.asp "Startup Template"  */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("image-header.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.w3-text-white {
+	padding:48px;
+}
+/* --- Lucija Bralic: Header Image End --- */
+
+/* --- Lucija External Links Begin --- */
+/* Inspiration: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+/* Brand icons ("Font Awesome") https://www.w3schools.com/icons/fontawesome_icons_brand.asp */
+.socialmedia {
+	padding:24px 48px
+}
+
+.fa {
+  font-size: 20px;				/* Size of the brand icon */
+  text-decoration: none;		/* Removes link underline*/
+  margin: 10px 5px;
+  color: white;
+}
+
+.fa:hover {				/* When the user hovers over the social media link, the opacity is lowered */
+    opacity: 0.7;
+}
+/* --- Lucija External Links End --- */
+
+
+/* --- Page Content --- */
+.w3-content {
+	max-width:1564px;
+}
+
+/* --- Lucija Project Images Begin --- */
+.w3-display-topleft {
+	z-index: 1;			/* Brings the black box to the front, so that its opacity is not lowered when the user hovers over the image */
+}
+
+.project-image img {
+	width: 100%;
+}
+
+.project-image:hover {				/* When the user hovers over the social media link, the opacity is lowered */
+    opacity: 0.7;
+}
+/* --- Lucija Project Images End --- */
+
+
+footer {
+	background-color: black
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	padding: 10px;
+}

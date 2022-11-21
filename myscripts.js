@@ -20,3 +20,6 @@ function w3_open() {
       x.className = x.className.replace(" w3-show", "");
     }
   }
+
+
+  //Getting started

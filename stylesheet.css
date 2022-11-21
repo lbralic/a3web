@@ -150,3 +150,81 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
   }
 }
 /* End Owner: Esther Kim */
+
+/* Meghan Noonan */
+body {
+	margin:0;
+	padding:0;
+}
+
+
+/* inspiration is the capital stairs website and the souce code is modified from W3Schools, 
+lecture content and the capital stairs website */
+
+/* colour palette is solidified */ 
+
+/* Meghan ... not sure what else to put beside my name? Check rubrik */
+.topbox{
+	padding-right: 25%;
+	padding-left: 25%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	text-align: center;
+	font-size: 20px; 
+	font-family: Verdana, sans-serif;
+	color: #6B7F82;
+}
+
+
+.sectionboxone{
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-bottom: 5%;
+	padding-top: 1%;
+	
+}
+
+.sectionboxtwo{
+	display: flex;
+	flex-direction: row;
+	background-color: #EBF5EE;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	
+}
+
+
+.quotebox{
+	padding: 3px; 
+	flex: 25%;
+	font-size: 25px; 
+	font-style: italic;
+	font-family: Verdana, sans-serif;
+	color: #18314F;
+	font-style: italic;
+	line-height: 155%;
+
+
+} 
+
+.paragraphbox{
+	padding: 10px;
+	flex: 75%;
+	font-size: 20px; 
+	font-family: Verdana, sans-serif; 
+	color: gray;
+	line-height: 155%;
+}
+
+/* sourced from W3Schools CSS Flex Responsive tutorial https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+
+@media (max-width: 800px){
+	.sectionboxone, .sectionboxtwo{
+		flex-direction: column;
+	}
+}

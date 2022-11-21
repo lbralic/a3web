@@ -1,13 +1,63 @@
 * {									
 	box-sizing: border-box;			/* Width and height calculations will include padding and borders */
-	margin: 0;						/* Overrides defaults and sets the margin of the entire page to 0 */
-	padding: 0;						/* Overrides defaults and sets the padding of the entire page to 0 */
+	margin: 0;						      /* Overrides defaults and sets the margin of the entire page to 0 */
+	padding: 0;						      /* Overrides defaults and sets the padding of the entire page to 0 */
 }
 
 body, html {
   height: 100%;
   line-height: 1.8;
+  /* Font default for page may be placed here? - Esther */
 }
+
+footer {
+	background-color: black
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+/***************** 
+* Heading Defaults
+* Owner : Esther Kim
+* Date  : Nov 21 (v1)
+******************/
+h1, h2, h3, h4, h5, h6 { /* Default for all hn */
+	font-family: Helvetica, sans-serif; /* Several fonts should be listed for fallback */ 
+}
+h1 { /* Main Heading - have not used yet*/
+  padding-top: 50px; 
+	margin-left: 25px;
+	font-size: 8vw; /* font unit vw for responsive design */
+}
+h2 { /* Heading */
+  padding-top: 10px; 
+	font-size: 50px;
+	margin-left: 30px;
+}
+h3 { /* Supporting Heading */
+	color: #22313f; /* https://palettes.shecodes.io/palettes/1548#palette  testing colour */
+  font-size: 40px;
+	margin-left: 35px;
+}
+h4 { /* Supporting Heading - Centered */
+	color: #272343; /* https://palettes.shecodes.io/palettes/1551 testing colour */
+  font-size: 30px;
+	text-align: center;
+	margin-left: 35px;
+}
+h5 { /* Heading Side Column*/
+  font-size: 30px;
+	margin: 20px;
+}
+h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet*/
+  font-size: 20px;
+	margin: 20px;
+}
+/* End Owner: Esther Kim */
 
 /* --- Lucija Bralic: Header Image Start --- */
 /* Inspiration: https://www.w3schools.com/w3css/w3css_templates.asp "Startup Template"  */
@@ -66,13 +116,37 @@ body, html {
 }
 /* --- Lucija Project Images End --- */
 
-
-footer {
-	background-color: black
+/***************** 
+* Classes for Heading Arrangement
+* Owner : Esther Kim
+* Date  : Nov 21 (v1)
+* Ref   : https://www.w3schools.com/css/css_website_layout.asp
+******************/
+.column { /* main column setting */
+  float: left;
 }
-
-footer p {
-	color: white;
-	text-align: center;
-	padding: 10px;
+/* Left column - for dividing a section from the main text*/
+.column.side {
+  width: 30%;
+  text-align: right;
 }
+/* Main column - for when a side column is used*/
+.column.main {
+  width: 70%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";      /* used with :after, in this case, inserts empty str */
+  display: block;   /* :after item behaves like block */
+  clear: both;      /* clears area from other floating elements - both side	*/
+}
+/* Responsive design for .column - shifts to a stacking arrangement when screen size passes limit */
+@media screen and (max-width: 1000px) {
+  .column.side, .column.main {
+    width: 100%;
+  }
+  .column.side {    /* Realign side column text to center */
+    text-align: center;
+  }
+}
+/* End Owner: Esther Kim */

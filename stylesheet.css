@@ -1,7 +1,8 @@
 /*This class '.topnav' was used for the style/CSS of the navigation bar. I started with the basics of the example from https://www.w3schools.com/css/css_navbar.asp and heaviliy modified it with different colour choices, hovering, text, etc...*/
 .topnav {
   overflow: hidden;
-  background-color: #24527a;
+  background-color: white;
+  
 }
 
 .topnav a {
@@ -10,6 +11,10 @@
   text-align: center;
   padding: 18px 22px;
   text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Verdana, sans-serif;
   font-size: 17px;
 }
 
@@ -23,6 +28,8 @@
   color: white;
 }
 /*This is the end of the navigation bar CSS styling */
+
+
 * {									
 	box-sizing: border-box;			/* Width and height calculations will include padding and borders */
 	margin: 0;						      /* Overrides defaults and sets the margin of the entire page to 0 */

@@ -5,8 +5,8 @@
 }
 
 .topnav a {
-  float: left;
-  color: white;
+  float: right;
+  color: blue;
   text-align: center;
   padding: 18px 22px;
   text-decoration: none;

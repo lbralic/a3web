@@ -1,11 +1,11 @@
-/*This class '.topnav' was used for the style/CSS of the navigation bar. I started with the basics of the example from https://www.w3schools.com/css/css_navbar.asp and heaviliy modified it with different colour choices, hovering, text, etc...*/
-.topnav {
+/*This class '.topnavigation' was used for the style/CSS of the navigation bar. I started with the basics of the example from https://www.w3schools.com/css/css_navbar.asp and heaviliy modified it with different colour choices, hovering, text, etc...*/
+.topnavigation {
   overflow: hidden;
   background-color: white;
   
 }
 
-.topnav a {
+.topnavigation a {
   float: right;
   color: #a7bcb9;
   text-align: center;
@@ -18,12 +18,12 @@
   font-size: 17px;
 }
 
-.topnav a:hover {
+.topnavigation a:hover {
   background-color: #5dacbd;
   color: white;
 }
 
-.topnav a.active {
+.topnavigation a.active {
   background-color: #5dacbd;
   color: white;
 }

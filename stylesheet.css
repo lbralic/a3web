@@ -54,11 +54,16 @@ body, html {
 .bottomfooter a {
   text-align: center;
   padding: 18px 22px;
+  text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: Verdana, sans-serif;
   font-size: 17px;
+}
+.bottomfooter a:hover {
+  background-color: #5dacbd;
+  color: white;
 }
 
 footer {

@@ -26,7 +26,6 @@ body, html {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: Verdana, sans-serif;
   font-size: 17px;
 }
 
@@ -45,24 +44,23 @@ body, html {
 
 .bottomfooter {
   overflow: hidden;
-  position: absolute;
   bottom: 0;
   width: 100%;
   background-color: white;
-  color: #a7bcb9;
  }
 .bottomfooter a {
+  float: center;
+  color: #a7bcb9;
   text-align: center;
   padding: 18px 22px;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: Verdana, sans-serif;
   font-size: 17px;
 }
 .bottomfooter a:hover {
-  background-color: #5dacbd;
+  background-color: #e0ebeb;
   color: white;
 }
 

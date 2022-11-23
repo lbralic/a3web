@@ -195,11 +195,6 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 
 /* --- Lucija Project Images Begin --- */
 
-
-
-
-/****/
-
 .project-container:after,.project-container:before,.project-row-padding:after,.project-row-padding:before {
   content:"";
   display:table;
@@ -225,9 +220,6 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
   }
 }
 
-
-/****/
-
 .project-display-container {
   position:relative;
 }
@@ -241,8 +233,6 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
   background-color:#000;
   padding:8px 16px;
 }
-
-
 
 .project-image img {
 	width: 100%;

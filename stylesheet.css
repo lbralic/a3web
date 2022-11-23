@@ -43,10 +43,13 @@ body, html {
 /*'.bottomfooter' is used for the style/CSS of the footer bar at the bottom. The basics were inspired from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer and heaviliy modified it with different colour choices, hovering, text, etc...*/
 
 .bottomfooter {
-  overflow: hidden;
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
   background-color: white;
+  text-align: center;
+}
  }
 .bottomfooter a {
   color: #a7bcb9;

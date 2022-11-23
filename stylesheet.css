@@ -1,3 +1,15 @@
+* {									
+	box-sizing: border-box;			/* Width and height calculations will include padding and borders */
+	margin: 0;						      /* Overrides defaults and sets the margin of the entire page to 0 */
+	padding: 0;						      /* Overrides defaults and sets the padding of the entire page to 0 */
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  font-family:Verdana,sans-serif; /* Font default for page may be placed here? - Esther */
+}
+
 /*This class '.topnavigation' was used for the style/CSS of the navigation bar. I started with the basics of the example from https://www.w3schools.com/css/css_navbar.asp and heaviliy modified it with different colour choices, hovering, text, etc...*/
 .topnavigation {
   overflow: hidden;
@@ -29,18 +41,6 @@
 }
 /*This is the end of the navigation bar CSS styling */
 
-
-* {									
-	box-sizing: border-box;			/* Width and height calculations will include padding and borders */
-	margin: 0;						      /* Overrides defaults and sets the margin of the entire page to 0 */
-	padding: 0;						      /* Overrides defaults and sets the padding of the entire page to 0 */
-}
-
-body, html {
-  height: 100%;
-  line-height: 1.8;
-  /* Font default for page may be placed here? - Esther */
-}
 
 footer {
 	background-color: black
@@ -160,8 +160,6 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
   background-color:#ccc;
   opacity:1;
 }
-
-
 /* --- Lucija Bralic: Header Image End --- */
 
 /* --- Lucija External Links Begin --- */
@@ -196,9 +194,55 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 }
 
 /* --- Lucija Project Images Begin --- */
-.w3-display-topleft {
-	z-index: 1;			/* Brings the black box to the front, so that its opacity is not lowered when the user hovers over the image */
+
+
+
+
+/****/
+
+.project-container:after,.project-container:before,.project-row-padding:after,.project-row-padding:before {
+  content:"";
+  display:table;
+  clear:both;
 }
+
+.project-container {
+  padding:0.16px 16px;
+  margin-bottom: 16px;
+  
+}
+
+.project-third {
+  float:left;
+  width:100%;
+  padding:0 8px;
+  
+}
+
+@media (min-width:601px) {
+  .project-third {
+    width:33.33333%;
+  }
+}
+
+
+/****/
+
+.project-display-container {
+  position:relative;
+}
+
+.project-display-textbox {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index: 1;			/* Brings the black box to the front, so that its opacity is not lowered when the user hovers over the image */
+  color:#fff;
+  background-color:#000;
+  padding:8px 16px;
+}
+
+
 
 .project-image img {
 	width: 100%;

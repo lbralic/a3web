@@ -159,7 +159,10 @@ h1 { /* Main Heading - have not used yet*/
 h2 { /* Heading */
 	font-size: 50px;
 	margin-left: 30px;
+  color: #18314F;
+  padding-left:3%;
 }
+
 h3 { /* Supporting Heading */
 	color: #22313f; /* https://palettes.shecodes.io/palettes/1548#palette  testing colour */
   font-size: 40px;
@@ -170,7 +173,9 @@ h4 { /* Supporting Heading - Centered */
   font-size: 30px;
 	text-align: center;
 	margin-left: 35px;
+  padding-bottom: 3%;
 }
+
 h5 { /* Heading Side Column*/
   font-size: 30px;
 	margin: 20px;
@@ -386,9 +391,7 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
   .h2text {
 	  font-size: 40px;  
 	  margin-top: 40px;
-    color: #18314F;
-    font-family: Verdana, sans-serif;
-    padding-left:3%;
+
   }
   .h3text {
     font-size: 30px;
@@ -399,11 +402,6 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 	  margin: 30px;
   }
 
-  h4{
-    color: #6B7F82;
-    font-family: Verdana, sans-serif;
-    font-size: 25px; 
-  }
 }
 /* End Owner: Esther Kim */
 

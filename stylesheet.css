@@ -9,9 +9,135 @@ body, html {
   line-height: 1.8;
   font-family:Verdana,sans-serif; /* Font default for page may be placed here? - Esther */
 }
+/*------------Fullscreen NavBar----------------*/ 
+/***************** 
+* Fullsize NavBar/Tablet + Mobile Screen NavBar/Active class for JavaScript/ 
+* Inspiration: W3S https://www.w3schools.com/howto/howto_js_topnav_responsive.asp  / https://www.youtube.com/watch?v=FazgJVnrVuI
+* Owner : Kevin VD
+* Date  : Nov 23 (v1)
+******************/
+.navbar {
+  background-color:#092329; 
+  color:#5dacbd;
+  display:flex;
+  overflow: hidden;
+  justify-content: space-around;
+  align-items: center;
+  /* font-size: 20px; */
+  /* width:100%;
+  padding: 2%;
+  height: 40px; */
+}
+.navlist {
+  list-style: none;
+  float: right;
+  color: #a7bcb9;
+  /* text-align: center; */
+  padding: 18px 22px;
+  text-decoration: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+.navlist .list_item {
+  display: inline-block;
+  padding: 16px 8px;
+}
+.navbar a {
+  color:#5dacbd;
+  text-decoration: none;
+  /* overflow: hidden; */
+}
+.navbar a:hover {
+  color: white;
+  transition: all 0.4s;
+}
+.navlist a.active {
+  background-color: #0f4754;/*Need to increase size and shape of active color box*/
+  color: white;
+}
+.navbar .CompanyLogo {
+  height: 30px;
+}
+.navbar .CompanyName {
+  color:#fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 23px;
+  font-weight: bold;
+}
+.menu_bar {
+  width: 22px;
+  height: 3.5px;
+  background-color:#ceddef;
+  margin-bottom: 4.5px;
+}
+.menuicon { /*Hide icon until @media mod kicks in aka smaller than 960px screen*/
+  display: none;
+}
+/*------------NavBar Media Screen Mods-------------*/
+@media all and (max-width:960px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
+  }
+  .menuicon {
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  } 
+  .navlist {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 6px;
+    display: none;/*Hide nav list items*/
+  }
+  .navlist .list_item {
+    display: block;
+    padding: 8px 4px;
+    text-align: center;
+    padding-top:8px;
+    /* border-top: 1px solid #5dacbd;
+    width: 100%; */
+  }
+  .navbar .GeomSolutions {/*Align name/logo left*/
+    width: 100%;
+    margin-left: 8px;
+    margin-top: 8px;
+  }
+  .active { /*Active class for JavaScript to bring our list back once icon is clicked*/
+    display: block
+  }
+}
+
+/* --- Kevin VD: END NavBar CSS + JavaScript class --- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*This class '.topnavigation' was used for the style/CSS of the navigation bar. I started with the basics of the example from https://www.w3schools.com/css/css_navbar.asp and heaviliy modified it with different colour choices, hovering, text, etc...*/
-.topnavigation {
+/* .topnavigation {
   overflow: hidden;
   background-color: white;
   
@@ -38,7 +164,7 @@ body, html {
   background-color: #5dacbd;
   color: white;
 }
-/*This is the end of the navigation bar CSS styling */
+This is the end of the navigation bar CSS styling */
 
 /*'.bottomfooter' is used for the style/CSS of the footer bar at the bottom. The basics were inspired from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer and heaviliy modified it with different colour choices, hovering, text, etc...*/
 

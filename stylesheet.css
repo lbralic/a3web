@@ -157,7 +157,6 @@ h1 { /* Main Heading - have not used yet*/
 	font-size: 8vw; /* font unit vw for responsive design */
 }
 h2 { /* Heading */
-  padding-top: 10px; 
 	font-size: 50px;
 	margin-left: 30px;
 }
@@ -178,7 +177,7 @@ h5 { /* Heading Side Column*/
 }
 h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet*/
   font-size: 20px;
-	margin: 20px;
+	margin: 40px;
 }
 /* End Owner: Esther Kim */
 
@@ -271,7 +270,7 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 }
 
 .fa:hover {				/* When the user hovers over the social media link, the opacity is lowered */
-    opacity: 0.7;
+  opacity: 0.7;
 }
 /* --- Lucija External Links End --- */
 
@@ -330,16 +329,20 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 }
 
 .project-image:hover {				/* When the user hovers over the social media link, the opacity is lowered */
-    opacity: 0.7;
+  opacity: 0.7;
 }
 /* --- Lucija Project Images End --- */
 
 /***************** 
 * Classes for Heading Arrangement
 * Owner : Esther Kim
-* Date  : Nov 21 (v1)
+* Date  : Nov 24 (v1)
 * Ref   : https://www.w3schools.com/css/css_website_layout.asp
 ******************/
+.h2text {
+  margin-left: 80px;
+  margin-top: 40px;
+}
 .column { /* main column setting */
   float: left;
 }
@@ -351,6 +354,10 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 /* Main column - for when a side column is used*/
 .column.main {
   width: 70%;
+}
+.row { /* to format columns together, or headings alone */
+  margin-left: 75px;
+  margin-right: 75px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -365,6 +372,28 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
   }
   .column.side {    /* Realign side column text to center */
     text-align: center;
+  }
+  .h2text {
+    margin-left: 30px;
+  }
+}
+/* Responsive design for headings and their margins for smaller screen size */
+@media screen and (max-width: 600px) {
+  .row {
+	  margin-left: 40px;
+    margin-right: 40px;
+  }
+  .h2text {
+	  font-size: 40px;  
+	  margin-top: 40px;
+  }
+  .h3text {
+    font-size: 30px;
+	  margin: 30px;
+  }
+  .h5text {
+    font-size: 25px;
+	  margin: 30px;
   }
 }
 /* End Owner: Esther Kim */

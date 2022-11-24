@@ -17,7 +17,7 @@ body, html {
 * Date  : Nov 23 (v1)
 ******************/
 .navbar {
-  background-color:#092329; 
+  background-color: #24527a; 
   color:#5dacbd;
   display:flex;
   overflow: hidden;
@@ -31,7 +31,7 @@ body, html {
 .navlist {
   list-style: none;
   float: right;
-  color: #a7bcb9;
+  color: #5dacbd; 
   /* text-align: center; */
   padding: 18px 22px;
   text-decoration: none;
@@ -45,23 +45,23 @@ body, html {
   padding: 16px 8px;
 }
 .navbar a {
-  color:#5dacbd;
+  color:#5dacbd;  
   text-decoration: none;
   /* overflow: hidden; */
 }
 .navbar a:hover {
-  color: white;
+  color:  #e0ebeb; 
   transition: all 0.4s;
 }
 .navlist a.active {
   background-color: #0f4754;/*Need to increase size and shape of active color box*/
-  color: white;
+  color:  #e0ebeb; 
 }
 .navbar .CompanyLogo {
   height: 30px;
 }
 .navbar .CompanyName {
-  color:#fff;
+  color: #e0ebeb; 
   text-decoration: none;
   letter-spacing: 2px;
   font-size: 23px;
@@ -70,7 +70,7 @@ body, html {
 .menu_bar {
   width: 22px;
   height: 3.5px;
-  background-color:#ceddef;
+  background-color: #e0ebeb; 
   margin-bottom: 4.5px;
 }
 .menuicon { /*Hide icon until @media mod kicks in aka smaller than 960px screen*/

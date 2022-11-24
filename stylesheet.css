@@ -26,7 +26,6 @@ body, html {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: Verdana, sans-serif;
   font-size: 17px;
 }
 
@@ -41,6 +40,31 @@ body, html {
 }
 /*This is the end of the navigation bar CSS styling */
 
+/*'.bottomfooter' is used for the style/CSS of the footer bar at the bottom. The basics were inspired from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer and heaviliy modified it with different colour choices, hovering, text, etc...*/
+
+.bottomfooter {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+ 
+.bottomfooter a {
+  color: #a7bcb9;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+.bottomfooter a:hover {
+  background-color: #e0ebeb;
+  color: white;
+}
 
 footer {
 	background-color: black

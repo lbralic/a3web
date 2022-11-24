@@ -439,9 +439,9 @@ lecture content, textbook and the capital stairs website */
 	line-height: 155%;
 }
 
-#linkedinlink{ /* can add a hover effect if wanted */
+#linkedinlink{
 	font-family: Verdana, sans-serif; 
-	color: blue;
+	color: black;
 }
 
 /* @media sourced from W3Schools CSS Flex Responsive tutorial https://www.w3schools.com/css/css3_flexbox_responsive.asp */

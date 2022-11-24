@@ -23,10 +23,6 @@ body, html {
   overflow: hidden;
   justify-content: space-around;
   align-items: center;
-  /* font-size: 20px; */
-  /* width:100%;
-  padding: 2%;
-  height: 40px; */
 }
 .navlist {
   list-style: none;
@@ -47,7 +43,6 @@ body, html {
 .navbar a {
   color:#5dacbd;  
   text-decoration: none;
-  /* overflow: hidden; */
 }
 .navbar a:hover {
   color:  #e0ebeb; 
@@ -95,13 +90,11 @@ body, html {
     padding-top: 6px;
     display: none;/*Hide nav list items*/
   }
-  .navlist .list_item {
+  .navlist .list_item {/*Want to add transition for menu drop down*/
     display: block;
     padding: 8px 4px;
     text-align: center;
     padding-top:8px;
-    /* border-top: 1px solid #5dacbd;
-    width: 100%; */
   }
   .navbar .GeomSolutions {/*Align name/logo left*/
     width: 100%;
@@ -114,30 +107,6 @@ body, html {
 }
 
 /* --- Kevin VD: END NavBar CSS + JavaScript class --- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*'.bottomfooter' is used for the style/CSS of the footer bar at the bottom. The basics were inspired from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer and heaviliy modified it with different colour choices, hovering, text, etc...*/
 
 .bottomfooter {

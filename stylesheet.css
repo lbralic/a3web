@@ -136,35 +136,7 @@ body, html {
 
 
 
-/*This class '.topnavigation' was used for the style/CSS of the navigation bar. I started with the basics of the example from https://www.w3schools.com/css/css_navbar.asp and heaviliy modified it with different colour choices, hovering, text, etc...*/
-/* .topnavigation {
-  overflow: hidden;
-  background-color: white;
-  
-}
 
-.topnavigation a {
-  float: right;
-  color: #a7bcb9;
-  text-align: center;
-  padding: 18px 22px;
-  text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 17px;
-}
-
-.topnavigation a:hover {
-  background-color: #5dacbd;
-  color: white;
-}
-
-.topnavigation a.active {
-  background-color: #5dacbd;
-  color: white;
-}
-This is the end of the navigation bar CSS styling */
 
 /*'.bottomfooter' is used for the style/CSS of the footer bar at the bottom. The basics were inspired from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer and heaviliy modified it with different colour choices, hovering, text, etc...*/
 

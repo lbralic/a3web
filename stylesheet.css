@@ -369,7 +369,7 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 }
 /* End Owner: Esther Kim */
 
-/* Meghan Noonan */
+/* Meghan Noonan: Owner of body section */
 body {
 	margin:0;
 	padding:0;
@@ -377,11 +377,10 @@ body {
 
 
 /* inspiration is the capital stairs website and the souce code is modified from W3Schools, 
-lecture content and the capital stairs website */
+lecture content, textbook and the capital stairs website */
 
 /* colour palette is solidified */ 
 
-/* Meghan ... not sure what else to put beside my name? Check rubrik */
 .topbox{
 	padding-right: 15%;
 	padding-left: 15%;
@@ -396,7 +395,7 @@ lecture content and the capital stairs website */
 
 
 .sectionboxone{
-	display: flex;
+	display: flex; /* make it so the text boxes can stack if screen is smaller */
 	flex-direction: row;
 	background-color: white;
 	padding-right: 15%;
@@ -409,7 +408,7 @@ lecture content and the capital stairs website */
 .sectionboxtwo{
 	display: flex;
 	flex-direction: row;
-	background-color: #EBF5EE;
+	background-color: #EBF5EE; /* background colour will be changed when colours are chosen */
 	padding-right: 15%;
 	padding-left: 15%;
 	padding-bottom: 5%;
@@ -419,7 +418,7 @@ lecture content and the capital stairs website */
 
 
 .quotebox{
-	padding: 3px; 
+	padding: 3px; /* quote box has different padding levels to make it left justified from center */
 	flex: 25%;
 	font-size: 25px; 
 	font-style: italic;
@@ -440,7 +439,12 @@ lecture content and the capital stairs website */
 	line-height: 155%;
 }
 
-/* sourced from W3Schools CSS Flex Responsive tutorial https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+#linkedinlink{ /* can add a hover effect if wanted */
+	font-family: Verdana, sans-serif; 
+	color: blue;
+}
+
+/* @media sourced from W3Schools CSS Flex Responsive tutorial https://www.w3schools.com/css/css3_flexbox_responsive.asp */
 
 @media (max-width: 800px){
 	.sectionboxone, .sectionboxtwo{

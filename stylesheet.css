@@ -160,7 +160,7 @@ h2 { /* Heading */
 	font-size: 50px;
 	margin-left: 30px;
   color: #18314F;
-  padding-left:10%;
+  padding-left:8%;
 }
 
 h3 { /* Supporting Heading */
@@ -173,7 +173,6 @@ h4 { /* Supporting Heading - Centered */
   font-size: 30px;
 	text-align: center;
 	margin-left: 35px;
-  padding-bottom: 3%;
 }
 
 h5 { /* Heading Side Column*/
@@ -405,15 +404,17 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 }
 /* End Owner: Esther Kim */
 
-/* Meghan Noonan: Owner of body section */
+/* Meghan Noonan: Owner of body section START*/
 body {
 	margin:0;
 	padding:0;
 }
 
 
-/* inspiration is the capital stairs website and the souce code is modified from W3Schools, 
+/* inspiration for the body is the capital stairs website and the souce code is modified from W3Schools, 
 lecture content, textbook and the capital stairs website */
+
+/* Other pages body will be modified by swapping quote box for images and adding tabs */
 
 /* colour palette is not solidified */ 
 
@@ -492,3 +493,5 @@ lecture content, textbook and the capital stairs website */
 	
 
 }
+
+/* Meghan Noonan: Owner of body section END */

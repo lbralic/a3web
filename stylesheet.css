@@ -9,6 +9,27 @@ body, html {
   line-height: 1.8;
   font-family:Verdana,sans-serif; /* Font default for page may be placed here? - Esther */
 }
+/* Scroll Button: Inspired by: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#TopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #24527a;
+  color: #e0ebeb;
+  cursor: crosshair;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+#TopBtn:hover {
+  background-color: #5dacbd;
+}
+
 /*------------Fullscreen NavBar----------------*/ 
 /***************** 
 * Fullsize NavBar/Tablet + Mobile Screen NavBar/Active class for JavaScript/ 

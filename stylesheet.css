@@ -451,6 +451,14 @@ lecture content, textbook and the capital stairs website */
 	background-color: #EBF5EE; 
 }
 
+.sectionbox{
+	background-color: #EBF5EE; /* background colour will be changed when colours are chosen */
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	
+}
 
 .sectionboxone{
 	display: flex; /* make it so the text boxes can stack if screen is smaller */
@@ -496,6 +504,17 @@ lecture content, textbook and the capital stairs website */
 	color: gray;
 	line-height: 155%; /* add spaces between rows of text for readability */
 }
+
+.values{
+  padding: 40px;
+	flex: 75%;
+	font-size: 20px; 
+	font-family: Verdana, sans-serif; 
+	color: gray;
+	line-height: 155%; /* add spaces between rows of text for readability */
+
+}
+
 
 /* this link will be edited once 'company content is solidified */ 
 #linkedinlink{

@@ -519,7 +519,7 @@ lecture content, textbook and the capital stairs website */
 
 
 /* Formatting for the paragraphs on the teams page. Follows a different pattern where the text boxes alternate from left to right with the images */ 
-
+/* ignore this part, I need to fix the formatting and will do so soon! 
 .photoboxone{
   padding: 10px;
 	flex: 50%;
@@ -534,7 +534,7 @@ lecture content, textbook and the capital stairs website */
   background-color: #EAEBED;
 	line-height: 155%; /* add spaces between rows of text for readability */
 }
-
+*/
 .photoboxtwo{
 	padding: 3px; 
 	flex: 50%;

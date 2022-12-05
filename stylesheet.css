@@ -50,9 +50,9 @@ body, html {
   float: right;
   color: #5dacbd; 
   /* text-align: center; */
-  padding: 18px 22px;
+  padding: 10px 14px;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 17px;

@@ -521,20 +521,16 @@ lecture content, textbook and the capital stairs website */
 /* Formatting for the paragraphs on the teams page. Follows a different pattern where the text boxes alternate from left to right with the images */ 
 
 .photoboxone{
-	padding: 3px; /* quote box has different padding levels to make it left justified from center */
+  padding-right: 15%;
+	padding-left: 15%;
+	padding-bottom: 5%;
+	padding-top: 1%;
 	flex: 50%;
-	font-size: 25px; 
-	font-style: italic;
-	font-family: Verdana, sans-serif;
-	color: #18314F;
-	font-style: italic;
-	line-height: 155%;
-
 
 } 
 
 .photoboxtwo{
-	padding: 3px; /* quote box has different padding levels to make it left justified from center */
+	padding: 3px; 
 	flex: 50%;
 	font-size: 25px; 
 	font-style: italic;
@@ -550,7 +546,7 @@ lecture content, textbook and the capital stairs website */
 .teamboxone{
 	display: flex; /* make it so the text boxes can stack if screen is smaller */
 	flex-direction: row;
-	background-color: white;
+	background-color: gray;
 	padding-right: 15%;
 	padding-left: 15%;
 	padding-bottom: 5%;
@@ -568,6 +564,8 @@ lecture content, textbook and the capital stairs website */
 	padding-top: 1%;
 	
 }
+
+
 
 /* this link will be edited once 'company content is solidified */ 
 #linkedinlink{

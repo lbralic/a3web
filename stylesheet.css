@@ -558,6 +558,17 @@ lecture content, textbook and the capital stairs website */
 	
 }
 
+.teamboxtwo{
+	display: flex; /* make it so the text boxes can stack if screen is smaller */
+	flex-direction: row;
+  background-color: #EBF5EE; /* background colour will be changed when colours are chosen */
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-bottom: 5%;
+	padding-top: 1%;
+	
+}
+
 /* this link will be edited once 'company content is solidified */ 
 #linkedinlink{
 	font-family: Verdana, sans-serif; 

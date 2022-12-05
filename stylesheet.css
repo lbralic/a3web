@@ -521,13 +521,19 @@ lecture content, textbook and the capital stairs website */
 /* Formatting for the paragraphs on the teams page. Follows a different pattern where the text boxes alternate from left to right with the images */ 
 
 .photoboxone{
-  padding-right: 15%;
-	padding-left: 15%;
-	padding-bottom: 5%;
-	padding-top: 1%;
+  padding: 10px;
 	flex: 50%;
-
 } 
+
+.paragraphboxteam{
+	padding: 10px;
+	flex: 50%;
+	font-size: 20px; 
+	font-family: Verdana, sans-serif; 
+	color: gray;
+  background-color: #EAEBED;
+	line-height: 155%; /* add spaces between rows of text for readability */
+}
 
 .photoboxtwo{
 	padding: 3px; 
@@ -546,7 +552,7 @@ lecture content, textbook and the capital stairs website */
 .teamboxone{
 	display: flex; /* make it so the text boxes can stack if screen is smaller */
 	flex-direction: row;
-	background-color: gray;
+	background-color: white;
 	padding-right: 15%;
 	padding-left: 15%;
 	padding-bottom: 5%;

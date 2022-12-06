@@ -4,7 +4,7 @@
 // * Owner : Kevin VD
 // * Date  : Nov 23 (v1)
 // -----------------------------//////
-$(document).ready(function ()  {
+$(document).ready(function ()  {  ///------jQuery drop menu inspired by:jQuery HTML Tutorial: https://www.youtube.com/watch?v=tdwXQRZUiRw w3S: https://www.w3schools.com/howto/howto_css_dropdown.asp
   $('.list_item').hover(function ()  {
       $(this).children('.sub_drop').slideDown(200);
   },

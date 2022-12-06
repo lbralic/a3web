@@ -9,7 +9,14 @@ body, html {
   line-height: 1.8;
   font-family:Verdana,sans-serif; /* Font default for page may be placed here? - Esther */
 }
-/* Scroll Button: Inspired by: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+
+/***************** 
+* Scroll to top button 
+* Inspiration:Inspired by: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp 
+* Owner : Kevin VD
+* Date  : Dec 05 
+******************/
+
 #TopBtn {
   display: none;
   position: fixed;
@@ -49,7 +56,6 @@ body, html {
   list-style: none;
   float: right;
   color: #5dacbd; 
-  /* text-align: center; */
   padding: 10px 14px;
   text-decoration: none;
   font-weight: normal;
@@ -70,7 +76,7 @@ body, html {
   transition: all 0.4s;
 }
 .navlist a.active {
-  background-color: #0f4754;/*Need to increase size and shape of active color box*/
+  background-color: #0f4754;
   color:  #e0ebeb; 
 }
 .navbar .CompanyLogo {
@@ -92,6 +98,12 @@ body, html {
 .menuicon { /*Hide icon until @media mod kicks in aka smaller than 960px screen*/
   display: none;
 }
+/***************** 
+* jQuery drop menu 
+* Inspiration: jQuery HTML Tutorial: https://www.youtube.com/watch?v=tdwXQRZUiRw
+* Owner : Kevin VD
+* Date  : Dec 05
+******************/
 ul.sub_drop {
   position:absolute;
   width:min-content;
@@ -124,6 +136,30 @@ ul.sub_drop li a {
     position: relative;
     transition: ease-in-out 0.4s;
   }
+  ul.sub_drop {
+    position:sticky;
+    width:fit-content;
+    background-color: #24527a;
+    display: none;
+    padding: 50px 400px;
+    margin: 50;
+  }
+  ul.sub_drop li:first-child{
+    margin-top: -25px;
+  }
+  
+  ul.sub_drop li > a:hover {
+   border: none;
+   color: #5dacbd;
+   transition: 0.5s;
+  }
+  ul.sub_drop li a {
+    text-decoration: none;
+    display:inline-flex;
+    text-align: center;
+    color: #e0ebeb;
+    font-size: small;
+   }
   .menuicon {
     display: block;
     position: absolute;
@@ -153,7 +189,8 @@ ul.sub_drop li a {
   }
 }
 
-/* --- Kevin VD: END NavBar CSS + JavaScript class --- */
+/* --- Kevin VD: END NavBar CSS + JavaScript class + jQuery drop menu--- */
+
 /*'.bottomfooter' is used for the style/CSS of the footer bar at the bottom. The basics were inspired from w3schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer and heaviliy modified it with different colour choices, hovering, text, etc...*/
 
 .bottomfooter {

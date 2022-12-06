@@ -129,7 +129,7 @@ ul.sub_drop li a {
   color: #e0ebeb;
   font-size: small;
  }
-/*------------NavBar Media Screen Mods-------------*/
+/*------------NavBar Media Screen Mods + Sub Drop Menu-------------*/
 @media all and (max-width:960px) {
   .navbar {
     flex-direction: column;
@@ -142,10 +142,10 @@ ul.sub_drop li a {
     background-color: #24527a;
     display: none;
     margin-top: 25px;
-    margin-left: auto;
+    margin-left: auto; /*Auto adjust drop list to center when screen size changes*/
     margin-right: auto;
   }
-  ul.sub_drop li:first-child{
+  ul.sub_drop li:first-child{ /*Sets position of first drop down link*/
     margin-top: -25px;
   }
   
@@ -156,7 +156,7 @@ ul.sub_drop li a {
   }
   ul.sub_drop li a {
     text-decoration: none;
-    display:inline-flex;
+    display:flex;
     text-align: center;
     color: #e0ebeb;
     font-size: small;

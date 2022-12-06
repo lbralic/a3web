@@ -92,6 +92,31 @@ body, html {
 .menuicon { /*Hide icon until @media mod kicks in aka smaller than 960px screen*/
   display: none;
 }
+ul.sub_drop {
+  position:absolute;
+  width:min-content;
+  background-color: #24527a;
+  display: none;
+  padding: 5px 6px;
+  margin: 0;
+}
+ul.sub_drop li:first-child{
+  margin-top: -25px;
+}
+
+ul.sub_drop li > a:hover {
+ border: none;
+ color: #5dacbd;
+ transition: 0.5s;
+}
+ul.sub_drop li a {
+  text-decoration: none;
+  /* float:none; */
+  display:inline-flex;
+  text-align: center;
+  color: #e0ebeb;
+  font-size: small;
+ }
 /*------------NavBar Media Screen Mods-------------*/
 @media all and (max-width:960px) {
   .navbar {

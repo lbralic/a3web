@@ -4,7 +4,16 @@
 // * Owner : Kevin VD
 // * Date  : Nov 23 (v1)
 // -----------------------------//////
+$(document).ready(function ()  {
+  $('.list_item').hover(function ()  {
+      $(this).children('.sub_drop').slideDown(200);
+  },
+        function () {
+            $(this).children('.sub_drop').slideUp(200);
+        }
+  );
 
+});
 const toggleButton = document.getElementById('MenuIcon');//   Assign button to a variable "ID"
 const NavBarList = document.getElementById('NavList'); //Second variable for navbar list
   toggleButton.addEventListener('click', function() {

@@ -602,6 +602,16 @@ lecture content, textbook and the capital stairs website */
 	padding-bottom:5%;
 }
 
+/* Add responsiveness to past projects images */
+
+@media (max-width: 900px){
+	.pastprojects{
+		max-width: 100%;
+		padding: 5%;
+	}
+
+}
+
 /* this link will be edited once 'company content is solidified */ 
 .teamlinks{
 	font-family: Verdana, sans-serif; 

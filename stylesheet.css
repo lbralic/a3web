@@ -594,6 +594,14 @@ lecture content, textbook and the capital stairs website */
 
 }
 
+/* Add space on the Past Projects page between the projects boxes */
+.padpast{
+	background-color: white; /* background colour will be changed when colours are chosen */
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom:5%;
+}
+
 /* this link will be edited once 'company content is solidified */ 
 .teamlinks{
 	font-family: Verdana, sans-serif; 

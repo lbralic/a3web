@@ -136,6 +136,30 @@ ul.sub_drop li a {
     position: relative;
     transition: ease-in-out 0.4s;
   }
+  ul.sub_drop {
+    position:sticky;
+    width:fit-content;
+    background-color: #24527a;
+    display: none;
+    padding: 50px 400px;
+    margin: 50;
+  }
+  ul.sub_drop li:first-child{
+    margin-top: -25px;
+  }
+  
+  ul.sub_drop li > a:hover {
+   border: none;
+   color: #5dacbd;
+   transition: 0.5s;
+  }
+  ul.sub_drop li a {
+    text-decoration: none;
+    display:inline-flex;
+    text-align: center;
+    color: #e0ebeb;
+    font-size: small;
+   }
   .menuicon {
     display: block;
     position: absolute;

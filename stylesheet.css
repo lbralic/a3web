@@ -141,8 +141,9 @@ ul.sub_drop li a {
     width:fit-content;
     background-color: #24527a;
     display: none;
-    padding: 50px 400px;
-    margin: 50;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
   }
   ul.sub_drop li:first-child{
     margin-top: -25px;

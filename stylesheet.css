@@ -639,10 +639,10 @@ lecture content, textbook and the capital stairs website */
 	padding-bottom:5%;
 }
 
-/* Add responsiveness to past projects images */
+/* Add responsiveness to past projects images and team images */
 
 @media (max-width: 900px){
-	.pastprojects{
+	.pastprojects, .imgteam{
 		max-width: 100%;
 		padding: 5%;
 	}

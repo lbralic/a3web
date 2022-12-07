@@ -644,7 +644,9 @@ lecture content, textbook and the capital stairs website */
   padding-bottom:5%;
 }
 
-.quoteboxcoding{
+/* format the left jusitified quote box to make the text bold but hold the same general formatting of the template */
+
+.quoteboxprojects{
 	padding: 3px; /* quote box has different padding levels to make it left justified from center */
 	flex: 25%;
 	font-size: 25px; 

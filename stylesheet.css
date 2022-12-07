@@ -231,42 +231,49 @@ footer p {
 /***************** 
 * Heading Defaults
 * Owner : Esther Kim
-* Date  : Nov 21 (v1)
+* Date  : Dec 06 (v2)
+* Referenced Palettes from Group Discussion:
+* * https://palettes.shecodes.io/palettes/1548#palette
+* * https://palettes.shecodes.io/palettes/1551
 ******************/
 h1, h2, h3, h4, h5, h6 { /* Default for all hn */
 	font-family: Helvetica, sans-serif; /* Several fonts should be listed for fallback */ 
 }
-h1 { /* Main Heading - have not used yet*/
+h1 { /* Main Page Heading - have not used yet*/
   padding-top: 50px; 
-	margin-left: 25px;
+	margin-left: 5px;
 	font-size: 8vw; /* font unit vw for responsive design */
 }
-h2 { /* Heading */
+h2 { /* Heading for non-main pages */
 	font-size: 50px;
 	margin-left: 30px;
   color: #18314F;
-  padding-left:8%;
+  padding-left: 8%; /* to align with page contents */
+  letter-spacing: -0.5mm;
 }
-
 h3 { /* Supporting Heading */
-	color: #22313f; /* https://palettes.shecodes.io/palettes/1548#palette  testing colour */
-  font-size: 40px;
-	margin-left: 35px;
+	color: #22313f; 
+  font-size: 35px;
+	margin-top: 10px;
+  margin-bottom: 20px;
 }
 h4 { /* Supporting Heading - Centered */
-	color: #272343; /* https://palettes.shecodes.io/palettes/1551 testing colour */
-  font-size: 30px;
+	color: #272343; 
+  font-size: 35px;
 	text-align: center;
 	margin-left: 35px;
 }
-
-h5 { /* Heading Side Column*/
+h5 { /* Inner Heading */
+  color: #5588a3;
   font-size: 30px;
 	margin: 20px;
 }
-h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet*/
-  font-size: 20px;
-	margin: 40px;
+h6 { /* Heading - Specific use for main page*/
+  color: #5588a3;
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: -0.7mm;
+  margin: 40px;
 }
 /* End Owner: Esther Kim */
 
@@ -425,14 +432,18 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 /***************** 
 * Classes for Heading Arrangement
 * Owner : Esther Kim
-* Date  : Nov 24 (v1)
+* Date  : Dec 06 (v2)
 * Ref   : https://www.w3schools.com/css/css_website_layout.asp
 ******************/
 .h2text {
   margin-left: 80px;
   margin-top: 40px;
 }
-.column { /* main column setting */
+.centerGrid {
+  margin: auto;
+  max-width: 80%;
+}
+.column { /* main column setting              *** */
   float: left;
 }
 /* Left column - for dividing a section from the main text*/
@@ -444,6 +455,9 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
 .column.main {
   width: 70%;
 }
+.column.h3 {
+  margin-bottom: 20px;
+}
 .row { /* to format columns together, or headings alone */
   margin-left: 75px;
   margin-right: 75px;
@@ -454,16 +468,60 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
   display: block;   /* :after item behaves like block */
   clear: both;      /* clears area from other floating elements - both side	*/
 }
+/* Code for Grid used in Testimonial Page */
+/* Reference for the reason in using grids over original flexbox idea */
+/* https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/ */
+.grid-container {
+  display: grid;
+  grid-auto-flow: column; /* makes behaviour like flexbox */
+  grid-auto-columns: 1fr;
+  gap: 1em;
+}
+.grid-container > div { /* for use in div */
+  background-color: #ffffff;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2); /* colour transparency is the last parameter */
+}
+.grid-container2 { /* Another version for 'Why choose us' section */
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-auto-flow: column; /*makes behaviour like flexbox*/
+  gap: 1em;
+}
+.grid-container2 > div {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.testQuote { /* For alignment and spacing in testimonial quote names. */
+  line-height: 400%;
+  text-align: left;
+}
+/* Responsive design for .grid-container - shifts to a stacking arrangement when screen size passes limit */
+@media screen and (max-width: 1150px) {
+  .grid-container {
+    grid-auto-flow: row; /* change orientation of the boxes */
+  }
+  .grid-container2 {
+    grid-auto-flow: row; /* change orientation of the boxes */
+    gap: 20px;
+  }
+}
 /* Responsive design for .column - shifts to a stacking arrangement when screen size passes limit */
 @media screen and (max-width: 1000px) {
   .column.side, .column.main {
     width: 100%;
   }
-  .column.side {    /* Realign side column text to center */
+  .column.side {    /* Re-align side column text to center */
     text-align: center;
   }
   .h2text {
     margin-left: 30px;
+    padding: 0%;
   }
 }
 /* Responsive design for headings and their margins for smaller screen size */
@@ -475,17 +533,22 @@ h6 { /* Heading (Smaller font size) - Additional as necessary, have not used yet
   .h2text {
 	  font-size: 40px;  
 	  margin-top: 40px;
-
   }
   .h3text {
     font-size: 30px;
 	  margin: 30px;
   }
+  .h4text {
+    font-size: 30px;
+    margin: 30px;
+  }
   .h5text {
     font-size: 25px;
 	  margin: 30px;
   }
-
+  .h6text {
+    font-size: 30px;
+  }
 }
 /* End Owner: Esther Kim */
 

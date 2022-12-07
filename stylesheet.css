@@ -749,4 +749,21 @@ lecture content, textbook and the capital stairs website */
 
 }
 
+
+/* Add formatting to fonts on the testimonials page for body text */
+.testimonials2{
+	font-size: 20px; 
+	font-family: Verdana, sans-serif; 
+	color: gray;
+  font-style: italic;
+	line-height: 155%; /* add spaces between rows of text for readability */
+}
+
+.testimonials{
+	font-size: 20px; 
+	font-family: Verdana, sans-serif; 
+	color: gray;
+	line-height: 155%; /* add spaces between rows of text for readability */
+}
+
 /* Meghan Noonan: Owner of body section END */

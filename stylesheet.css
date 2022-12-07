@@ -558,7 +558,6 @@ body {
 	padding:0;
 }
 
-
 /* inspiration for the body is the capital stairs website and the souce code is modified from W3Schools, 
 lecture content, textbook and the capital stairs website */
 
@@ -605,7 +604,7 @@ lecture content, textbook and the capital stairs website */
 	padding-right: 15%;
 	padding-left: 15%;
 	padding-bottom: 5%;
-	padding-top: 5%;
+	padding-top: 1%;
 	
 }
 
@@ -702,6 +701,25 @@ lecture content, textbook and the capital stairs website */
 	padding-right: 10%;
 	padding-bottom:5%;
 }
+
+/* Add padding between the paragraphs on the coding page */ 
+.coding{
+  padding-bottom:5%;
+}
+
+/* format the left jusitified quote box to make the text bold but hold the same general formatting of the template */
+
+.quoteboxprojects{
+	padding: 3px; /* quote box has different padding levels to make it left justified from center */
+	flex: 25%;
+	font-size: 25px; 
+	font-style: Bold;
+	font-family: Verdana, sans-serif;
+	color: #18314F;
+	line-height: 155%;
+
+
+} 
 
 /* Add responsiveness to past projects images and team images */
 

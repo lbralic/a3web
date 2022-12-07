@@ -5,11 +5,11 @@
 // * Date  : Nov 23 (v1)
 // -----------------------------//////
 $(document).ready(function ()  {  ///------jQuery drop menu inspired by:jQuery HTML Tutorial: https://www.youtube.com/watch?v=tdwXQRZUiRw w3S: https://www.w3schools.com/howto/howto_css_dropdown.asp
-  $('.list_item').hover(function ()  {
-      $(this).children('.sub_drop').slideDown(200);
+  $('.list_item').hover(function ()  {   ///--Hover over .list_item drops submenu---.ready(function) waits for page to load.
+      $(this).children('.sub_drop').slideDown(250);  ///Children are list items in sub drop menu slide down is speed it drops.
   },
         function () {
-            $(this).children('.sub_drop').slideUp(200);
+            $(this).children('.sub_drop').slideUp(250); ///Slide up once pointer is out of menu block (250) is the speed it returns.
         }
   );
 

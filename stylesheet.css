@@ -219,7 +219,13 @@ ul.sub_drop li a {
 }
 
 footer {
-	background-color: black
+	left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: Black;
+  color: white;
+  text-align: center;
+  padding: 40px;
 }
 
 footer p {

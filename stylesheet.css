@@ -52,6 +52,10 @@ body, html {
   justify-content: space-around;
   align-items: center;
 }
+/*
+Owner: Jessica Murdoch
+navbar basic desisn inspiration from https://www.w3schools.com/howto/howto_js_topnav.asp 
+Date November 22, 2022*/
 .navlist {
   list-style: none;
   float: right;
@@ -63,6 +67,7 @@ body, html {
   letter-spacing: 2px;
   font-size: 17px;
 }
+/*End of navbar basics for navbar by Jessica Murdoch*/
 .navlist .list_item {
   display: inline-block;
   padding: 16px 8px;
@@ -201,29 +206,6 @@ Inspiration: The basics were inspired from w3schools https://www.w3schools.com/h
 /*Date: Dec 07, 2022
 ********************/
 
-.bottomfooter {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
- 
-.bottomfooter a {
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  padding: 18px 22px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 17px;
-}
-
-.bottomfooter a:hover {
-  background-color: #e0ebeb;
-  color: black;
-}
 
 footer {
 	left: 0;

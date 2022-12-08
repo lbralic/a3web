@@ -797,12 +797,14 @@ lecture content, textbook and the capital stairs website */
 
 .navigation{
   display: inline-flex;
+  text-align: right;
+}
+.navlinks{
+  padding-left: 10%;
+  padding-right:5%;
   font-size: 16px;
   font-family: Verdana, sans-serif; 
   color: white;
-  text-align: right;
-  padding-left: 5%;
-  padding-right:5%;
-  
+  font-style: none;
 }
 /* Meghan Noonan: Owner of body section END */

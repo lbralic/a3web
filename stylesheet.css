@@ -289,9 +289,9 @@ h6 { /* Heading - Specific use for main page*/
 .header-image {
   background-position: center;
   /*background-size: cover;*/
-  background-size: contain;
+  background-size: auto;
   background-image: url("images/image-header.jpg");
-  min-height: 100%;
+  max-height: 80%;
   position: relative;
 }
 

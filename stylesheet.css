@@ -235,7 +235,7 @@ footer {
   padding: 60px;
 }
 
-footer a {
+.footer a {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
@@ -246,16 +246,12 @@ footer a {
   font-size: 17px;
 }
 
-footer a:hover {
+.footer a:hover {
   background-color: #e0ebeb;
   color: black;
 }
 
-footer p {
-	color: white;
-	text-align: center;
-	padding: 10px;
-}
+
 /* End Owner: Jessica Murdoch */
 
 /***************** 

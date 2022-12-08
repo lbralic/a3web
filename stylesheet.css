@@ -816,8 +816,10 @@ li.navigation{
   padding-right:5%;
   font-size: 16px;
   font-family: Verdana, sans-serif; 
-  color: white;
-  font-style: none;
 }
 
+.navlinks{
+  color: white;
+  text-decoration: none;
+}
 /* Meghan Noonan: Owner of body section END */

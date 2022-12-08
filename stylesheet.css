@@ -281,7 +281,7 @@ h6 { /* Heading - Specific use for main page*/
   font-style: italic;
   letter-spacing: -0.7mm;
   margin: 40px;
-  position: center; /* align text with the main header text */
+  text-align:center; /* align text with the main header text */
 }
 /* End Owner: Esther Kim */
 
@@ -793,7 +793,7 @@ lecture content, textbook and the capital stairs website */
 	font-family: Verdana, sans-serif; 
 	color: gray;
 	line-height: 155%; /* add spaces between rows of text for readability */
-  position: center;
+  text-align:center;
 }
 
 /* Meghan Noonan: Owner of body section END */

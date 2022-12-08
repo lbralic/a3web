@@ -308,6 +308,7 @@ h6 { /* Heading - Specific use for main page*/
 .header-image-title {
   font-size: 100px;
   font-weight:bold;
+  position:center;
 }
 
 .header-image-title-small {         /* Lowers the size of the title when the screen is small */
@@ -315,7 +316,8 @@ h6 { /* Heading - Specific use for main page*/
 }
 
 .header-image-subtitle {
-  font-size:18px;
+  font-size:30px;
+  position: center;
 }
 
 @media (max-width:600px) {          /* Hides the large title text when the screen is small */

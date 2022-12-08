@@ -754,8 +754,9 @@ lecture content, textbook and the capital stairs website */
 /* adding lin break colour to testimonials page */
 .linebreak{
   text-align:center;
-  width:200%;
-  
+  width:20%;
+  border-top:5px double #EBF5EE;
+
 }
 
 /* Add formatting to fonts on the testimonials page for body text */

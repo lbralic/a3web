@@ -24,14 +24,14 @@ const NavBarList = document.getElementById('NavList'); //Second variable for nav
 // Get the button by id "TopBtn":
 let mybutton = document.getElementById("TopBtn");
 
-// When the user scrolls down 300px from the top of the document, show the button.
+// When the user scrolls down 150px from the top of the document, show the button.
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() { //Function to show or hide button depending position of page from top.
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-    mybutton.style.display = "flex"; //once page scrolls past 300px from the top button is displayed
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    mybutton.style.display = "flex"; //once page scrolls past 150px from the top button is displayed
   } else {
-    mybutton.style.display = "none"; //before page scrolls past 300px from the top button is not displayed
+    mybutton.style.display = "none"; //before page scrolls past 150px from the top button is not displayed
   }
 }
 

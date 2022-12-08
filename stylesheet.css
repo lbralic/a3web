@@ -297,9 +297,9 @@ h6 { /* Heading - Specific use for main page*/
 .header-image-text {
   position: absolute;
   top: 50%;
-  left: 0%;
-  transform: translate(0%,-50%);
-  -ms-transform: translate(-0%,-50%);
+  text-align: center;
+  /*transform: translate(0%,-50%);
+  -ms-transform: translate(-0%,-50%);*/
   color:#fff;
   padding: 48px;
 }
@@ -307,12 +307,12 @@ h6 { /* Heading - Specific use for main page*/
 .header-image-title {
   font-size: 100px;
   font-weight:bold;
-  position:center;
   text-align: center;
 }
 
 .header-image-title-small {         /* Lowers the size of the title when the screen is small */
   font-size: 36px;
+  text-align: center;
 }
 
 .header-image-subtitle {

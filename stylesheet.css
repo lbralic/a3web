@@ -288,7 +288,8 @@ h6 { /* Heading - Specific use for main page*/
 /* Inspiration: https://www.w3schools.com/w3css/w3css_templates.asp "Startup Template"  */
 .header-image {
   background-position: center;
-  background-size: cover;
+  /*background-size: cover;*/
+  background-size: contain;
   background-image: url("images/image-header.jpg");
   min-height: 100%;
   position: relative;

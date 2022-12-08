@@ -801,15 +801,14 @@ lecture content, textbook and the capital stairs website */
 	line-height: 155%; /* add spaces between rows of text for readability */
 }
 
-.navbartwo{
-  background-color: #0f4754;
-}
+
 
 li.navigation{
   display: inline-flex;
   padding-left: 5%;
   padding-right:5%;
   float: right;
+  background-color: #0f4754;
 
 }
 

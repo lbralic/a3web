@@ -688,6 +688,10 @@ lecture content, textbook and the capital stairs website */
 .quoteboxteam{
 	padding: 3px; /* quote box has different padding levels to make it left justified from center */
 	flex: 25%;
+  font-size: 20px; 
+	font-family: Verdana, sans-serif; 
+	color: gray;
+	line-height: 155%; 
 }
 
 

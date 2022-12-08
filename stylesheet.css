@@ -246,7 +246,7 @@ footer {
 h1, h2, h3, h4, h5, h6 { /* Default for all hn */
 	font-family: Helvetica, sans-serif; /* Several fonts should be listed for fallback */ 
 }
-h1 { /* Main Page Heading - have not used yet*/
+h1 { /* Main Page Heading */
   padding-top: 50px; 
 	margin-left: 5px;
 	font-size: 8vw; /* font unit vw for responsive design */
@@ -458,21 +458,6 @@ h6 { /* Heading - Specific use for main page*/
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.column { /* main column setting              *** */
-  float: left;
-}
-/* Left column - for dividing a section from the main text*/
-.column.side {
-  width: 30%;
-  text-align: right;
-}
-/* Main column - for when a side column is used*/
-.column.main {
-  width: 70%;
-}
-.column.h3 {
-  margin-bottom: 20px;
-}
 .row { /* to format columns together, or headings alone */
   margin-left: 75px;
   margin-right: 75px;
@@ -532,12 +517,6 @@ h6 { /* Heading - Specific use for main page*/
 }
 /* Responsive design for .column - shifts to a stacking arrangement when screen size passes limit */
 @media screen and (max-width: 1000px) {
-  .column.side, .column.main {
-    width: 100%;
-  }
-  .column.side {    /* Re-align side column text to center */
-    text-align: center;
-  }
   .h2text {
     margin-left: 30px;
     padding: 0%;

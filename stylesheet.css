@@ -413,7 +413,7 @@ h6 { /* Heading - Specific use for main page*/
   
 }
 
-@media (min-width:901px) {
+@media (min-width:801px) {
   .project-fourth {
     width:25%;
   }

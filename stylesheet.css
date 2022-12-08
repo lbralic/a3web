@@ -493,7 +493,7 @@ h6 { /* Heading - Specific use for main page*/
   gap: 1em;
 }
 .grid-container > div { /* for use in div */
-  background-color: #ffffff;
+  background-color: #EBF5EE; /*Meghan - adding colour */
   text-align: center;
   margin: 30px;
   padding: 20px;

@@ -793,12 +793,43 @@ lecture content, textbook and the capital stairs website */
 	line-height: 155%; /* add spaces between rows of text for readability */
 }
 
+/* Homepage formatting for paragraph */
 .hometext{
 	font-size: 20px; 
 	font-family: Verdana, sans-serif; 
 	color: gray;
 	line-height: 155%; /* add spaces between rows of text for readability */
   text-align:center;
+}
+
+/* Formatting for the spatial, coding, surveying pages paragraphs and images */
+
+.sectionboxoneprojects{
+	display: flex; /* make it so the text boxes can stack if screen is smaller */
+	flex-direction: row;
+	background-color: white;
+	padding:5%;
+	
+}
+
+
+/* for other pages the quote box will be swapped for images that will be contained in the section boxes */
+.quoteboxprojects{
+	padding: 3px; /* quote box has different padding levels to make it left justified from center */
+	flex: 25%;
+	position: center;
+
+} 
+/* Paragraph/div formmating for the values page */
+
+.paragraphboxprojects{
+	padding-left: 2%;
+	padding-right: 2%;
+	flex: 75%;
+	font-size: 20px; 
+	font-family: Verdana, sans-serif; 
+	color: gray;
+	line-height: 155%; /* add spaces between rows of text for readability */
 }
 
 /* Meghan Noonan: Owner of body section END */

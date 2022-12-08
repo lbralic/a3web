@@ -287,7 +287,7 @@ h6 { /* Heading - Specific use for main page*/
 /* --- Lucija Bralic: Header Image Start --- */
 /* Inspiration: https://www.w3schools.com/w3css/w3css_templates.asp "Startup Template"  */
 .header-image {
-  filter:grayscale(50%);
+  /*filter:grayscale(50%);*/
   background-position: center;
   background-size: cover;
   background-image: url("images/image-header.jpg");
@@ -306,7 +306,8 @@ h6 { /* Heading - Specific use for main page*/
 }
 
 .header-image-title {
-  font-size: 64px;
+  font-size: 100px;
+  font-weight:bold;
 }
 
 .header-image-title-small {         /* Lowers the size of the title when the screen is small */

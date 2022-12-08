@@ -235,7 +235,7 @@ footer {
   padding: 60px;
 }
 
-.footer a {
+footer a {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
@@ -246,7 +246,7 @@ footer {
   font-size: 17px;
 }
 
-.footer a:hover {
+footer a:hover {
   background-color: #e0ebeb;
   color: black;
 }

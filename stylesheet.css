@@ -239,11 +239,10 @@ footer {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  padding: 18px 22px;
+  padding: 12px 22px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 17px;
 }
 
 .footer a:hover {

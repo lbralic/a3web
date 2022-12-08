@@ -111,11 +111,12 @@ Date November 22, 2022*/
 ******************/
 ul.sub_drop {
   position:absolute;
-  width:min-content;
+  width:auto;
   background-color: #24527a;
   display: none;
-  padding: 5px 6px;
-  margin: 0;
+  padding: 3px 4px;
+  margin-left: auto; /*Auto adjust drop list to center when screen size changes*/
+  margin-right: auto;
 }
 ul.sub_drop li:first-child{
   margin-top: -25px;

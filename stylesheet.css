@@ -209,16 +209,7 @@ Inspiration: The basics were inspired from w3schools https://www.w3schools.com/h
   text-align: center;
 }
  
-.bottomfooter a {
-  color: #a7bcb9;
-  position: relative;
-  text-align: center;
-  padding: 18px 22px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 17px;
-}
+
 .bottomfooter a:hover {
   background-color: #e0ebeb;
   color: black;
@@ -232,6 +223,17 @@ footer {
   color: white;
   text-align: center;
   padding: 60px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 18px 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17px;
 }
 
 footer p {

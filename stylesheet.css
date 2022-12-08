@@ -295,7 +295,7 @@ h6 { /* Heading - Specific use for main page*/
 }
 
 .header-image-text {
-  position: absolute;
+  /*position: absolute;*/
   top: 50%;
   text-align: center;
   /*transform: translate(0%,-50%);

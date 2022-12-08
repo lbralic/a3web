@@ -291,7 +291,8 @@ h6 { /* Heading - Specific use for main page*/
   /*background-size: cover;*/
   background-size: cover;
   background-image: url("images/image-header.jpg");
-  max-height: 80%;
+  min-height: 70%;
+  max-height: 85%;
   background-repeat: no-repeat ;
   position: relative;
 }

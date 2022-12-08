@@ -515,6 +515,10 @@ h6 { /* Heading - Specific use for main page*/
 .testQuote { /* For alignment and spacing in testimonial quote names. */
   line-height: 400%;
   text-align: left;
+  font-size: 20px; 
+	font-family: Verdana, sans-serif; 
+	color: gray;
+	line-height: 155%; 
 }
 /* Responsive design for .grid-container - shifts to a stacking arrangement when screen size passes limit */
 @media screen and (max-width: 1150px) {
@@ -688,10 +692,7 @@ lecture content, textbook and the capital stairs website */
 .quoteboxteam{
 	padding: 3px; /* quote box has different padding levels to make it left justified from center */
 	flex: 25%;
-  font-size: 20px; 
-	font-family: Verdana, sans-serif; 
-	color: gray;
-	line-height: 155%; 
+
 }
 
 

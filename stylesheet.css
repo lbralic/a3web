@@ -313,10 +313,11 @@ h6 { /* Heading - Specific use for main page*/
   text-align: center;
 }
 
-.header-image-title-small {         /* Lowers the size of the title when the screen is small */
+/*.header-image-title-small {         
   font-size: 36px;
   text-align: center;
 }
+*/
 
 .header-image-subtitle {
   font-size:30px;

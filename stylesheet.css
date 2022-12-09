@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 { /* Default for all hn */
 h1 { /* Main Page Heading */
   padding-top: 50px; 
 	margin-left: 5px;
-	font-size: 100pt; /* font unit vw for responsive design */
+	font-size: 100pt;
 }
 h2 { /* Heading for non-main pages */
 	font-size: 50px;
@@ -404,17 +404,17 @@ h6 { /* Heading - Specific use for main page*/
   margin-left: 80px;
   margin-top: 40px;
 }
-.centerGrid {
+.centerGrid { /* to format text in grid  */
   margin: auto;
   max-width: 80%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.row { /* to format columns together, or headings alone */
+.row { /* to format headings alone */
   margin-left: 75px;
   margin-right: 75px;
 }
-/* Clear floats after the columns */
+/* Clear floats appearing after */
 .row:after {
   content: "";      /* used with :after, in this case, inserts empty str */
   display: block;   /* :after item behaves like block */
@@ -457,7 +457,7 @@ h6 { /* Heading - Specific use for main page*/
 	color: gray;
 	line-height: 155%; 
 }
-/* Responsive design for .grid-container - shifts to a stacking arrangement when screen size passes limit */
+/* Responsive design for h1, .grid-container - shifts to a stacking arrangement when screen size passes limit */
 @media screen and (max-width: 1150px) {
   .h1text {
     font-size: 8vw; /* font unit vw for responsive design */
@@ -470,7 +470,7 @@ h6 { /* Heading - Specific use for main page*/
     gap: 20px;
   }
 }
-/* Responsive design for .column - shifts to a stacking arrangement when screen size passes limit */
+/* Responsive design for h2 */
 @media screen and (max-width: 1000px) {
   .h2text {
     margin-left: 30px;

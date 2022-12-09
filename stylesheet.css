@@ -285,7 +285,11 @@ h6 { /* Heading - Specific use for main page*/
 }
 /* End Owner: Esther Kim */
 
-/* --- Lucija Bralic: Header Image Start --- */
+/***************** 
+* Header Image
+* Owner : Lucija Bralic
+* Date  : Dec 08
+******************/
 /* Inspiration: https://www.w3schools.com/w3css/w3css_templates.asp "Startup Template"  */
 .header-image {
   background-position: center;
@@ -298,11 +302,8 @@ h6 { /* Heading - Specific use for main page*/
 }
 
 .header-image-text {
-  /*position: absolute;*/
   top: 50%;
   text-align: center;
-  /*transform: translate(0%,-50%);
-  -ms-transform: translate(-0%,-50%);*/
   color:#fff;
   padding: 100px;
 }
@@ -312,12 +313,6 @@ h6 { /* Heading - Specific use for main page*/
   font-weight:bold;
   text-align: center;
 }
-
-/*.header-image-title-small {         
-  font-size: 36px;
-  text-align: center;
-}
-*/
 
 .header-image-subtitle {
   font-size:30px;
@@ -335,7 +330,7 @@ h6 { /* Heading - Specific use for main page*/
     display:none;
   }
 }
-
+/* End Owner: Lucija Bralic */
 
 /* --- Page Content --- */
 .page-content {
@@ -345,12 +340,16 @@ h6 { /* Heading - Specific use for main page*/
   padding:8px 16px;
 }
 
-/* --- Lucija Project Images Begin --- */
+/***************** 
+* Project Images
+* Owner : Lucija Bralic
+* Date  : Dec 08
+******************/
 
 .project-container:after,.project-container:before,.project-row-padding:after,.project-row-padding:before {
   content:"";
   display:table;
-  clear:both;
+  clear:both;     /* Clearing the style before and after the container */
 }
 
 .project-container {
@@ -359,14 +358,14 @@ h6 { /* Heading - Specific use for main page*/
   
 }
 
-.project-fourth {
+.project-fourth {   /* Creating four floating project images */
   float:left;
   width:100%;
   padding:0 8px;
   
 }
 
-@media (min-width:801px) {
+@media (min-width:801px) {    /* Adding responsive design to the images */
   .project-fourth {
     width:25%;
   }
@@ -390,10 +389,10 @@ h6 { /* Heading - Specific use for main page*/
 	width: 100%;
 }
 
-.project-image:hover {				/* When the user hovers over the social media link, the opacity is lowered */
+.project-image:hover {				/* When the user hovers over the project image, the opacity is lowered */
   opacity: 0.7;
 }
-/* --- Lucija Project Images End --- */
+/* End Owner: Lucija Bralic */
 
 /***************** 
 * Classes for Heading Arrangement

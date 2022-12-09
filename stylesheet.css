@@ -335,7 +335,7 @@ h6 { /* Heading - Specific use for main page*/
     display:none;
   }
 }
-
+/*
 .header-button {
   border: none;
   display:inline-block;
@@ -365,7 +365,7 @@ h6 { /* Heading - Specific use for main page*/
 /* --- Lucija External Links Begin --- */
 /* Inspiration: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
 /* Brand icons ("Font Awesome") https://www.w3schools.com/icons/fontawesome_icons_brand.asp */
-.socialmedia {
+/*.socialmedia {
 	padding:24px 48px;
   position:absolute;
   left:0;
@@ -374,14 +374,13 @@ h6 { /* Heading - Specific use for main page*/
 
 .fa {
   font-size: 20px;				/* Size of the brand icon */
-  text-decoration: none;		/* Removes link underline*/
-  margin: 10px 5px;
-  color: white;
+  /*text-decoration: none;		/* Removes link underline*/
+  /*olor: white;
 }
 
 .fa:hover {				/* When the user hovers over the social media link, the opacity is lowered */
-  opacity: 0.7;
-}
+ /* opacity: 0.7;*/
+
 /* --- Lucija External Links End --- */
 
 

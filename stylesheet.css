@@ -296,7 +296,7 @@ h6 { /* Heading - Specific use for main page*/
   background-size: cover;
   background-image: url("images/image-header.jpg");
   min-height: 100%; /* Meghan - edited the max/min height of the image to ensure the entire image is above the fold and other content is shown above the fold to indicate users need to scroll to see everything */
-  background-repeat: no-repeat ; /*added no repeat to enure background image was a single, non repeating image */
+  background-repeat: no-repeat ; /* added no repeat to enure background image was a single, non repeating image */
   position: relative;
 }
 

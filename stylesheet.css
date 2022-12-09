@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 { /* Default for all hn */
 h1 { /* Main Page Heading */
   padding-top: 50px; 
 	margin-left: 5px;
-	font-size: 8vw; /* font unit vw for responsive design */
+	font-size: 100pt; /* font unit vw for responsive design */
 }
 h2 { /* Heading for non-main pages */
 	font-size: 50px;
@@ -459,6 +459,9 @@ h6 { /* Heading - Specific use for main page*/
 }
 /* Responsive design for .grid-container - shifts to a stacking arrangement when screen size passes limit */
 @media screen and (max-width: 1150px) {
+  .h1text {
+    font-size: 8vw; /* font unit vw for responsive design */
+  }
   .grid-container {
     grid-auto-flow: row; /* change orientation of the boxes */
   }

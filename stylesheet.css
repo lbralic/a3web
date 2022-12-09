@@ -295,8 +295,7 @@ h6 { /* Heading - Specific use for main page*/
   background-position: center;
   background-size: cover;
   background-image: url("images/image-header.jpg");
-  min-height: 30%; /* Meghan - edited the max/min height of the image to ensure the entire image is above the fold and other content is shown above the fold to indicate users need to scroll to see everything */
-  max-height: 60%;
+  min-height: 100%; /* Meghan - edited the max/min height of the image to ensure the entire image is above the fold and other content is shown above the fold to indicate users need to scroll to see everything */
   background-repeat: no-repeat ; /*added no repeat to enure background image was a single, non repeating image */
   position: relative;
 }
@@ -305,13 +304,7 @@ h6 { /* Heading - Specific use for main page*/
   top: 50%;
   text-align: center;
   color:#fff;
-  padding: 100px;
-}
-
-.header-image-title {
-  font-size: 100px;
-  font-weight:bold;
-  text-align: center;
+  padding-top: 100px;
 }
 
 .header-image-subtitle {
@@ -319,17 +312,6 @@ h6 { /* Heading - Specific use for main page*/
   text-align: center;
 }
 
-@media (max-width:600px) {          /* Hides the large title text when the screen is small */
-.header-text-hide-small {
-    display: none;
-  }
-}
-
-@media (min-width:601px) {
-  .header-text-hide-large {      /* Hides the small title text when the screen is large */
-    display:none;
-  }
-}
 /* End Owner: Lucija Bralic */
 
 /* --- Page Content --- */

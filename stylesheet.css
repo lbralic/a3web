@@ -657,16 +657,6 @@ lecture content, textbook and the capital stairs website */
 
 /* format the left jusitified quote box to make the text bold but hold the same general formatting of the template */
 
-.quoteboxprojects{
-	padding: 3px; /* quote box has different padding levels to make it left justified from center */
-	flex: 25%;
-	font-size: 25px; 
-	font-family: Verdana, sans-serif;
-	color: #18314F;
-	line-height: 155%;
-
-
-} 
 
 /* Add responsiveness to past projects images and team images */
 

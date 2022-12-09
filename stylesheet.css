@@ -498,14 +498,16 @@ h6 { /* Heading - Specific use for main page*/
 }
 /* End Owner: Esther Kim */
 
-/* Meghan Noonan: Owner of body section START*/
+/* Owner: Meghan Noonan
+Purpose: Mostly formatting of the body of each page. Also some link and image formatting. Responisve design also included below for p, div, img in body
+/* Inspiration for the body (fonts, line spacing, colour blocks and box layouts) was inspired by several sources including
+ https://harpargrace.com/pages/our-brands, https://nakashimawoodworkers.com/, https://capitalstairsinc.com/about_us/, https://www.zanderplan.com/how-zanderplan-works-with-developers/
+The souce code is modified from W3Schools, lecture content, textbook and the capital stairs website */
+START*/
 body {
 	margin:0;
 	padding:0;
 }
-
-/* inspiration for the body is the capital stairs website and the souce code is modified from W3Schools, 
-lecture content, textbook and the capital stairs website */
 
 /* Other pages body will be modified by swapping quote box for images and adding tabs */
 
@@ -634,7 +636,7 @@ lecture content, textbook and the capital stairs website */
 }
 
 
-@media (max-width: 1400px){
+@media (max-width: 1400px){ /*Responsive */
 	.sectionboxoneteam, .sectionboxtwoteam{
 		flex-direction: column;
 	}

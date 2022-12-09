@@ -279,7 +279,6 @@ h5 { /* Inner Heading */
 h6 { /* Heading - Specific use for main page*/
   color: #5588a3;
   font-size: 40px;
-  font-style: bold;
   letter-spacing: -0.7mm;
   margin: 40px;
   text-align:center; /* align text with the main header text */
